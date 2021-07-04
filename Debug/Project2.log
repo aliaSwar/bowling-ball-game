@@ -1,0 +1,48 @@
+﻿Build started 07/04/2021 12:39:32 PM.
+     1>Project "C:\Users\ALIA\documents\visual studio 2013\Projects\Project2\Project2\Project2.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl- /Od /Oy- /D GLUT_BUILDING_LIB /D _CRT_SECURE_NO_WARNINGS /D "-D_SCL_SECURE_NO_WARNINGS" /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt controller\controller.cpp core\application.cpp core\main.cpp model\bowl.cpp model\bowlingMachine.cpp model\model.cpp model\pin.cpp model\pinSet.cpp model\place.cpp utils\movingObject.cpp utils\texturizableObject.cpp view\camera.cpp view\image.cpp view\view.cpp
+         view.cpp
+         image.cpp
+         camera.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\xutility(2132): warning C4996: 'std::_Copy_impl': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\xutility(2113) : see declaration of 'std::_Copy_impl'
+                 c:\users\alia\documents\visual studio 2013\projects\project2\project2\view\camera.cpp(14) : see reference to function template instantiation '_OutIt std::copy<float*,float*>(_InIt,_InIt,_OutIt)' being compiled
+                 with
+                 [
+                     _OutIt=float *
+         ,            _InIt=float *
+                 ]
+         texturizableObject.cpp
+         movingObject.cpp
+         place.cpp
+         pinSet.cpp
+         pin.cpp
+         model.cpp
+         bowlingMachine.cpp
+         bowl.cpp
+         main.cpp
+         application.cpp
+         controller.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ALIA\documents\visual studio 2013\Projects\Project2\Debug\Project2.exe" /INCREMENTAL /NOLOGO GLAUX.lib GLU32.lib glut.lib OPENGL32.lib glut32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\ALIA\documents\visual studio 2013\Projects\Project2\Debug\Project2.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\ALIA\documents\visual studio 2013\Projects\Project2\Debug\Project2.lib" /MACHINE:X86 Debug\controller.obj
+         Debug\application.obj
+         Debug\main.obj
+         Debug\bowl.obj
+         Debug\bowlingMachine.obj
+         Debug\model.obj
+         Debug\pin.obj
+         Debug\pinSet.obj
+         Debug\place.obj
+         Debug\movingObject.obj
+         Debug\texturizableObject.obj
+         Debug\camera.obj
+         Debug\image.obj
+         Debug\view.obj
+         Project2.vcxproj -> C:\Users\ALIA\documents\visual studio 2013\Projects\Project2\Debug\Project2.exe
+     1>Done Building Project "C:\Users\ALIA\documents\visual studio 2013\Projects\Project2\Project2\Project2.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.90
